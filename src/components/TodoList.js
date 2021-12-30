@@ -58,7 +58,7 @@ function TodoList() {
 
     return (
         <div>
-            <h1>Qual o plano de Hoje</h1>
+            <h1>Qual o plano de Hoje?</h1>
             <Todoform onSubmit={addTodo} />
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo}
             updateTodo={updateTodo}/>
